@@ -623,3 +623,13 @@ div[data-category=in-the-kitchen] h5 {
     font-size: 18px;
     font-weight: 400;
 }
+
+.footer{
+    width: var(--width-full);
+    height: 100px;
+    background-color: var(--primary-color);
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
