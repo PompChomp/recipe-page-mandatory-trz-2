@@ -508,6 +508,8 @@ p[data-category=beef-pork] {
     gap: var(--grid-gap);
     box-sizing: border-box;
     margin: 0 auto;
+    min-height: 1340px;
+    margin-bottom: 60px;
 }
 .content-area-headline{
     width: 100%;
@@ -628,8 +630,32 @@ div[data-category=in-the-kitchen] h5 {
     width: var(--width-full);
     height: 100px;
     background-color: var(--primary-color);
-    align-items: center;
+}
+
+.footer-area{
+    display:flex;
+    width: var(--width-12col);
+    margin: 0 auto;
+}
+
+.footer-area-left{
+    color: var(--color_black);
+    padding: 10px;
     display: flex;
-    flex-direction: column;
-    justify-content: center
+}
+
+.footer-area-left-text{
+    display: flex
+}
+
+.footer-area-left-text-right{
+    display: flex;
+}
+
+.footer-area-right{
+    color: var(--background-color-light);
+    font-size: 10px;
+    margin-left: auto;
+    display: flex;
+    padding: 10px;
 }
