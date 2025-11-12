@@ -721,3 +721,40 @@ div[data-category=in-the-kitchen] h5 {
     text-decoration: none;
     color: var(--color_black);
 }
+
+.hero-container-search-page{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: auto auto auto;
+    gap: var(--grid-gap);
+    width: var(--width-12col);
+    border-bottom: 1px solid var(--color_black);
+}
+
+.search-results-container{
+    width: var(--width-12col);
+    height: fit-content;
+    display: grid;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+.search-results-container-block-text h3 {
+    color: var(--color-light);
+}
+.search-results-container-block-text h2 {
+    color: var(--color-light);
+}
+.search-results-container-block-text p {
+    color: var(--color-light);
+}
+
+.search-results-container{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0;
+}
+
+.search-results-container-block{
+    padding: 20px 0;
+}
