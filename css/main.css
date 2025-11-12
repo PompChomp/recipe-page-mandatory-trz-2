@@ -98,7 +98,7 @@ html {
 }
 
 .menu-container ul li:last-child {
-border-right: none;
+    border-right: none;
 }
 
 .menu-container ul li a:hover {
@@ -655,6 +655,7 @@ div[data-category=in-the-kitchen] h5 {
     flex-direction: row;
     justify-content: space-between;
     gap: 150px;
+    color: var(--color_black);
 }
 
 .footer-area-left-text-left{
@@ -709,4 +710,14 @@ div[data-category=in-the-kitchen] h5 {
     display: flex;
     flex-direction: row;
     gap: 5px;
+}
+
+.footer-area-left-text a {
+    text-decoration: none;
+    color: var(--color_black);
+} 
+
+.footer-area-right a {
+    text-decoration: none;
+    color: var(--color_black);
 }
