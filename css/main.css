@@ -628,7 +628,7 @@ div[data-category=in-the-kitchen] h5 {
 
 .footer{
     width: var(--width-full);
-    height: 100px;
+    height: 125px;
     background-color: var(--primary-color);
 }
 
@@ -636,26 +636,77 @@ div[data-category=in-the-kitchen] h5 {
     display:flex;
     width: var(--width-12col);
     margin: 0 auto;
+    padding: 20px 30px 20px 30px;
 }
 
 .footer-area-left{
     color: var(--color_black);
     padding: 10px;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    padding-right: 265px;
+    border-right: 1px solid var(--color-white);
 }
 
 .footer-area-left-text{
-    display: flex
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 150px;
+}
+
+.footer-area-left-text-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
+    
+}
+
+.footer-area-left-text-left-youtube{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-area-left-text-left-instagram{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.footer-area-left-text-left-facebook{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
 
 .footer-area-left-text-right{
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70px;
 }
 
 .footer-area-right{
     color: var(--background-color-light);
     font-size: 10px;
     margin-left: auto;
-    display: flex;
     padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+}
+
+.footer-area-right-bottom-text{
+    align-self: flex-end;
+}
+
+.footer-area-right-bottom-text-bottom{
+    font-size: 10px;
+    color: var(--color_black);
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
 }
