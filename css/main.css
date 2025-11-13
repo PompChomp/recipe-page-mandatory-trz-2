@@ -288,7 +288,7 @@ div[data-category=seafood] {
     border-left: 1px solid var(--category-seafood);
 }
 
-p[data-category=seafood] {
+p[data-category=seafood], span[data-category=seafood] {
     color: var(--category-seafood);
 }
 
@@ -739,22 +739,32 @@ div[data-category=in-the-kitchen] h5 {
     margin: 0 auto;
 }
 
-.search-results-container-block-text h3 {
-    color: var(--color-light);
-}
-.search-results-container-block-text h2 {
-    color: var(--color-light);
-}
-.search-results-container-block-text p {
-    color: var(--color-light);
-}
-
-.search-results-container{
+.search-results-container-block-text{
     display: flex;
     flex-direction: column;
-    padding: 20px 0;
+    justify-content: space-between;
+    gap: 10px;
+    color: var(--color-light);
+}
+.search-results-container-block-text-bottom h2{
+    color: var(--primary-color);
+    font-size: 22px;
+    font-weight: 700;
+    font-style: bold;
+    text-transform: uppercase;
+}
+.search-results-container-block-text-bottom{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
 }
 
 .search-results-container-block{
     padding: 20px 0;
+    border-bottom: 1px solid var(--color_black);
+}
+
+.search-results-container-block-text-top{
+    padding-left: 10px;
 }
