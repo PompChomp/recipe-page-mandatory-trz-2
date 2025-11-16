@@ -824,7 +824,7 @@ div[data-category=in-the-kitchen] h5 {
 .hero-container-recepie-details-header-bottom-text-bottom-ingredients{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
 }
 
 .hero-container-recepie-details-header-bottom-text-bottom-ingredients-left{
@@ -834,6 +834,11 @@ div[data-category=in-the-kitchen] h5 {
     font-weight: 400;
     font-size: 14px;
 }
+
+.hero-container-recepie-details-header-bottom-text-bottom-ingredients-left ul li {
+    margin-left: 15px;
+}
+
 .hero-container-recepie-details-header-bottom-text-bottom-ingredients-right{
     display: flex;
     flex-direction: column;
@@ -881,3 +886,87 @@ div[data-category=in-the-kitchen] h5 {
     display: flex;
     align-items: center;
 }
+
+
+.instructions {
+    width: var(--width-12col);
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.instructons-top-text h1 {
+    color: var(--background-color-light);
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    margin: 20px 0 20px 0;
+    border-bottom:1px solid var(--color-light);
+}
+
+.insctructions-area ol li {
+    color: var(--background-color-light);
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    line-height: 36px;
+    margin-left: 20px;
+}
+
+.bonus-instructions {
+    width: var(--width-12col);
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.bonus-instructons-top-text{
+    display: flex;
+    flex-direction: row;
+    margin: 200px 0 20px 0;
+    gap: 370px;
+    padding: 10px 0 10px 0;
+    border-bottom:1px solid var(--color-light);
+}
+
+.bonus-instructions-top-text-left h1 {
+    color: var(--background-color-light);
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+}
+
+.bonus-instructions-top-text-right h1 {
+    color: var(--background-color-light);
+    font-size: 37px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+}
+
+.bonus-instructions-main-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.bonus-instructions-main-text-left ol li {
+    margin-left: 20px;
+    color: var(--background-color-light);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 20px;
+}
+
+.bonus-instructions-main-text-right ul li{
+    list-style-type: none;
+}
+.bonus-instructions-main-text-right{
+    margin-left: 20px;
+    color: var(--background-color-light);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-bottom: 20px;
+}   
