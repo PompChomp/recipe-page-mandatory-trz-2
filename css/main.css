@@ -970,3 +970,36 @@ div[data-category=in-the-kitchen] h5 {
     line-height: 24px;
     padding-bottom: 20px;
 }   
+
+.recepie-page-2-content-area{
+    width: var(--width-12col);
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.recepie-page-2-content-area-text-top{
+    display: flex;
+    justify-content: flex-end;
+    color: var(--background-color-light);
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: "Roboto", sans-serif;
+    margin: 20px 0 20px 0;
+    border-bottom:1px solid var(--color-light);
+}
+
+.recepie-page-2-content-text-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+
+.recepie-page-2-content-text-bottom-text{
+    color: var(--background-color-light);
+    font-size: 12px;
+    font-weight: 400;
+    margin: 20px 0 20px 0;
+}
