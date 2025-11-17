@@ -485,6 +485,10 @@ p[data-category=beef-pork] {
     accent-color: var(--category-pasta);
 }
 
+.image-section-area{
+    margin-top: 40px;
+}
+
 .image-section-area-image{
     transform: skew();
     background-image: url("https://picsum.photos/1200/600");
@@ -498,6 +502,7 @@ p[data-category=beef-pork] {
     color: var(--background-color-light);
     margin: 0;
     border-bottom: 1px solid var(--bacground-color-dark);
+    clip-path: polygon(0 0, 100% 20%, 100% 100%, 0% 100%);
 }
 
 .content-area{
@@ -1002,4 +1007,5 @@ div[data-category=in-the-kitchen] h5 {
     font-size: 12px;
     font-weight: 400;
     margin: 20px 0 20px 0;
+    margin-bottom: 100px;
 }
